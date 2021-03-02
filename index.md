@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<head><title>SmartCity-AR solution of 'Rafid'</title></head>
+<html>
+<head><title>SmartCity-AR solution of 'Rafid'.</title></head>
 <!-- defines the default zoom for mobile devices -->
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <body>
@@ -10,9 +10,6 @@
         <li><a href="SmartCity-AR/task1.html">Task 1</a></li>
         <li><a href="SmartCity-AR/task2.html">Task 2</a></li>
         <li><a href="SmartCity-AR/task3.html">Task 3</a></li>
-
-        ...
-        <li><a href="SmartCity-AR/taskX.html">Task X</a></li>
     </ul>
 </body>
 </html>
