@@ -6,10 +6,10 @@
         <a-scene embedded arjs>
             <a-assets>
 	      
-		<video id="video1" autoplay="false" loop crossorigin="anonymous" src="assets/basra-city.mp4"></video>
+		<video id="my-vid" autoplay="false" loop crossorigin="anonymous" src="assets/basra-city.mp4"></video>
                 <a-asset-item id="helmet" src="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/KhronosGroup/glTF-Sample-Models/master/2.0/SciFiHelmet/glTF/SciFiHelmet.gltf"></a-asset-item>
             </a-assets>
-            <!-- handle hiro marker -->
+
             <a-marker preset="hiro">
                 <a-entity
                 position="0 -1 0"
@@ -17,9 +17,10 @@
                 gltf-model="#helmet"
                 >
                 </a-entity>
-	        <a-video src="#video1"class="intersectable" width="1" height="1" position="0 0 0" rotation="0 0 0" color="#FFFFFF" transparent=False></a-video>
+
+	        <a-video src="#my-vid"class="intersectable" width="100%" height="100%" position="0 0 0" rotation="0 0 0" color="#FFFFFF" transparent=False></a-video>
             </a-marker>
-            <!-- add a camera to the scene that renders the objects for us ---->
+
             <a-entity camera></a-entity>
         </a-scene>
     </body>
